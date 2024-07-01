@@ -26,7 +26,7 @@ const Create = () => {
     axios.post("https://667d39a9297972455f641efb.mockapi.io/crudApp/users", {
       name: name,
       email: email,
-    }).then((res)=> console.log(res)).catch((err)=> console.log(err)).then(()=> navigate("/"))
+    }).then((res)=> console.log(res)).catch((err)=> console.log(err)).then(()=> navigate("/CrudApp/"))
 
   }
   return (

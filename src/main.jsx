@@ -9,7 +9,7 @@ import Edit from "./pages/Edit.jsx";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <BrowserRouter>
     <Routes>
-      <Route path="/" element={<App />} />
+      <Route path="/CrudApp/" element={<App />} />
       <Route path="/create" element={<Create />} />
       <Route path="/edit/:id" element={<Edit />} />
     </Routes>
